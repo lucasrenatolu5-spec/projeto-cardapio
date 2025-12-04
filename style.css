@@ -178,7 +178,7 @@ a.opcoes:hover{
    font-size: 1.1em;
    margin-right: 20px;
    margin-top: 20px;
-   line-height: 1.8em;
+   line-height: 1.5em;
    text-align: justify;
 }
 
@@ -194,7 +194,7 @@ a.opcoes:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 40px;
     margin: 10px;
 }
 
@@ -206,10 +206,9 @@ a.opcoes:hover{
 }
 
 .cardápio{
-    display: flex;
+    display: grid;    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
     background-color: var(--cor3);
     margin-top: 20px;
     height: auto;
@@ -221,15 +220,12 @@ a.opcoes:hover{
     max-width: 225px;
     padding: 10px;
     border-radius: 10px;
-    padding-bottom: 135px;
+    padding-bottom: 170px;
     align-items: flex-start;
     box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0.192); 
-    flex: 1;
-    min-width: 200px;
-    max-width: 300px;
     margin: 10px;
-    flex-basis: 100%;
-    width: 100%;
+    max-width: 200px;
+    min-width: 200px;
 }
 .valor, .burguer-tudo{
     border-radius: 10px;
