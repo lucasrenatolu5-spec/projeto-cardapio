@@ -225,8 +225,8 @@ a.opcoes:hover{
     box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0.192); 
     margin: 10px;
     margin: auto;
-    max-width: 190px;
-    min-width: 160px;
+    max-width: 160px;
+    min-width: 140px;
     margin-bottom: 10px;
 }
 .valor, .burguer-tudo{
