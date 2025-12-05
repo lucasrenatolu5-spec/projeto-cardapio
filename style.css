@@ -28,6 +28,7 @@ body{
     max-width: 1220px;
     margin: 0 auto;
     font-family: "Inter Tight", sans-serif;
+    border-radius: 20px 20px 20px 20px;
 }
 
 header {
@@ -38,7 +39,8 @@ header {
    max-width: 1220px;
    height: 180px;
    margin: auto;
-
+   margin-top: 20px;
+   border-radius: 20px 20px 0px 0px;
 }
 
 header p{
@@ -121,9 +123,9 @@ picture img{
 main{
    background-color: #fff;
    max-width: 1220px;
-   height: 100vh;
    display: block;
    margin: 0 auto;
+   border-radius: 20px 20px 20px 20px;
 }
 
 nav{
@@ -209,7 +211,6 @@ a.opcoes:hover{
     display: grid;    grid-template-columns: repeat(2, 1fr);
     flex-wrap: wrap;
     background-color: var(--cor3);
-    margin-top: 20px;
     height: auto;
 }
 
@@ -218,7 +219,7 @@ a.opcoes:hover{
     background-color: #fff;
     max-width: 225px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding-bottom: 170px;
     align-items: flex-start;
     box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0.192); 
@@ -226,22 +227,33 @@ a.opcoes:hover{
     margin: auto;
     max-width: 190px;
     min-width: 160px;
+    margin-bottom: 10px;
 }
 .valor, .burguer-tudo{
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .x-tudo, .burguer-tudo{
     width: 100%;
     height: 200px;
     object-fit: cover;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .x-tudo h3{
     text-align: center;
+}
+
+.Nosso-cardapio{
+   background-color: var(--cor3);
+   font-family: 'hamburguer', sans-serif;
+   text-align: center;
+   font-size: 40px;
+   color: var(--cor2);
+   margin-top: 40px;
+   text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.322);
 }
 
 
